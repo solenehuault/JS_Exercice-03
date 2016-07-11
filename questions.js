@@ -17,3 +17,8 @@ function AjoutElementLangages(langages) {
 	langages.push("Ruby", "Python");
 	return langages;
 };
+
+function AjoutElementNombres(nombres) {
+	nombres.unshift(-2, -1);
+	return nombres;
+};
