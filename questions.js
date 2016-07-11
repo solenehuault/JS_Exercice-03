@@ -7,3 +7,8 @@ function CreationTableauNombres() {
 	nombres = [0, 1, 2, 3, 4, 5];
 	return nombres;
 };
+
+function RemplacementElement(langages) {
+	langages[2] = "Javascript";
+	return langages;
+};
