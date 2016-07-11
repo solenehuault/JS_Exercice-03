@@ -50,3 +50,23 @@ function TriTableau(reseaux_sociaux) {
 function InversionTableau(langages) {
 	return langages.reverse();
 };
+
+function TriSpecial(langages) {
+	var result = [];
+	var index_small = 0;
+	var compteur = 0;
+	var taille = langages.length; 
+	while (compteur != taille) {
+		var small = langages[0];
+		for (var i = 1 ; i < langages.length ; i++) {
+			if (small.length > langages[i].length) {
+				small = langages[i];
+				index_small = i;
+			}
+		}
+		result.push(small);
+		langages.splice(index_small, 1);
+		compteur++;
+	}
+	return result;
+};

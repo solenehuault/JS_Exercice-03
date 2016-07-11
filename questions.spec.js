@@ -53,12 +53,11 @@ describe("", function() {
       var langages = InversionTableau(langages);
       expect(langages).toEqual(["Ruby", "PHP", "Javascript", "CSS"]);
   });
-  /****************
-  it('Ordonnez le table "languages" en fonction du nombre de caractères présents dans la chaine' fuction(){
+ 
+  it('Ordonnez le table "languages" en fonction du nombre de caractères présents dans la chaine', function () {
       var langages = ['C#','Javascript','PHP','Ruby'];
       var langages = TriSpecial(langages);
       expect(langages).toEqual(["C#", "PHP", "Ruby", "Javascript"]);
   });
 
-************************/
 });
