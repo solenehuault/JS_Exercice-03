@@ -32,3 +32,8 @@ function SuppressionDernierElement(langages) {
 	langages.splice(langages.length-1, 1);
 	return langages;
 };
+
+function ConversionChaineTableau(reseaux_sociaux_chaine) {
+	var result = reseaux_sociaux_chaine.split(",");
+	return result;
+};
