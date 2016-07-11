@@ -37,3 +37,8 @@ function ConversionChaineTableau(reseaux_sociaux_chaine) {
 	var result = reseaux_sociaux_chaine.split(",");
 	return result;
 };
+
+function ConversionTableauChaine(langages) {
+	var result = langages.join();
+	return result;
+};
