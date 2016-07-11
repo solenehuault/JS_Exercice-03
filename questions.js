@@ -22,3 +22,8 @@ function AjoutElementNombres(nombres) {
 	nombres.unshift(-2, -1);
 	return nombres;
 };
+
+function SuppressionPremierElement(langages) {
+	langages.splice(0,1);
+	return langages;
+};
