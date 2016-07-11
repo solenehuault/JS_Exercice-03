@@ -42,3 +42,7 @@ function ConversionTableauChaine(langages) {
 	var result = langages.join();
 	return result;
 };
+
+function TriTableau(reseaux_sociaux) {
+	return reseaux_sociaux.sort();
+};
