@@ -27,3 +27,8 @@ function SuppressionPremierElement(langages) {
 	langages.splice(0,1);
 	return langages;
 };
+
+function SuppressionDernierElement(langages) {
+	langages.splice(langages.length-1, 1);
+	return langages;
+};
