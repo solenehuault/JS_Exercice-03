@@ -46,3 +46,7 @@ function ConversionTableauChaine(langages) {
 function TriTableau(reseaux_sociaux) {
 	return reseaux_sociaux.sort();
 };
+
+function InversionTableau(langages) {
+	return langages.reverse();
+};
