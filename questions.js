@@ -12,3 +12,8 @@ function RemplacementElement(langages) {
 	langages[2] = "Javascript";
 	return langages;
 };
+
+function AjoutElementLangages(langages) {
+	langages.push("Ruby", "Python");
+	return langages;
+};
